@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@400;700;900&display=swap");
+
+:root {
+  font-family: "Chivo", Arial, sans-serif;
+  color: #a6b8a2;
+  background: #102a26;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  --bg: #102a26;
+  --surface: #a6b8a2;
+  --ink: #a6b8a2;
+  --muted: #c1d3bb;
+  --surface-muted: #314639;
+  --accent-ink: #102a26;
+  --margin: clamp(1rem, 2.2vw, 2rem);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; }
+button, input { font: inherit; }
+a { color: inherit; }
+::selection { color: var(--bg); background: var(--ink); }
+:focus-visible { outline: 3px solid #fff; outline-offset: 4px; }
+#root { width: 100%; }
